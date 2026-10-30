@@ -1,0 +1,1 @@
+const a=s=>/^[6-9]\d{9}$/.test(String(s||"").replace(/\D/g,"").slice(-10)),n=s=>!s||/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(s),i=s=>/^\d{6}$/.test(String(s||"")),c=s=>String(s||"").replace(/\D/g,"").slice(-10),o=(s,t=[])=>i(s)&&(!t.length||t.some(e=>String(s).startsWith(e)));export{o as a,a as b,n as c,i,c as n};
