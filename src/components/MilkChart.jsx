@@ -26,7 +26,7 @@ export default function MilkChart() {
   }, [range]);
 
   return (
-    <div className="bg-white rounded-[20px] p-6 shadow-sm">
+    <div className="bg-white rounded-[20px] p-6 shadow-xs">
       <div className="flex items-center justify-between mb-4">
         <h3 className="font-semibold text-gray-800">🥛 Milk Production</h3>
         <div className="flex gap-2 bg-farm-cream rounded-xl p-1">

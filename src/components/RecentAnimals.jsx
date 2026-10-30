@@ -23,7 +23,7 @@ export default function RecentAnimals() {
   }, []);
 
   return (
-    <div className="bg-white rounded-[20px] p-6 shadow-sm">
+    <div className="bg-white rounded-[20px] p-6 shadow-xs">
       <div className="flex items-center justify-between mb-4">
         <h3 className="font-semibold text-gray-800">Recent Animals</h3>
         <button onClick={() => navigate("/animals")} className="text-farm-green text-xs font-medium">

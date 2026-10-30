@@ -5,7 +5,7 @@ export default function StatCard({ icon: Icon, label, value, color = "green" }) 
     brown: "bg-farm-brown/10 text-farm-brown",
   };
   return (
-    <div className="bg-white rounded-[20px] p-5 shadow-sm flex items-center gap-4">
+    <div className="bg-white rounded-[20px] p-5 shadow-xs flex items-center gap-4">
       <div className={`w-12 h-12 rounded-2xl flex items-center justify-center ${colorMap[color]}`}>
         <Icon size={24} />
       </div>

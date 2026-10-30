@@ -52,8 +52,8 @@
 //           />
 //         ))}
 
-//         <div className="absolute inset-0 bg-gradient-to-t from-forest/80 via-forest/20 to-transparent" />
-//         <div className="absolute inset-0 bg-gradient-to-r from-white/40 via-white/10 to-transparent" />
+//         <div className="absolute inset-0 bg-linear-to-t from-forest/80 via-forest/20 to-transparent" />
+//         <div className="absolute inset-0 bg-linear-to-r from-white/40 via-white/10 to-transparent" />
 
 //         <div className="relative z-20 flex items-center h-full">
 //           <div className="max-w-2xl px-6 lg:px-14">
@@ -81,7 +81,7 @@
 //               </button>
 //               <button
 //                 onClick={() => navigate("/login")}
-//                 className="px-8 py-3 rounded-xl bg-white/90 backdrop-blur border border-white text-forest font-semibold hover:bg-white transition"
+//                 className="px-8 py-3 rounded-xl bg-white/90 backdrop-blur-sm border border-white text-forest font-semibold hover:bg-white transition"
 //               >
 //                 Login
 //               </button>
@@ -174,7 +174,7 @@ export default function Home() {
           />
         ))}
 
-        <div className="absolute inset-0 bg-gradient-to-r from-white/60 via-white/10 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-white/60 via-white/10 to-transparent" />
         <div className="relative z-20 flex items-center h-full">
           <div className="max-w-2xl px-6 lg:px-14">
             <div className="mb-6">
@@ -185,7 +185,7 @@ export default function Home() {
               🌿 Welcome to
             </p>
 
-            <h1 className="font-display font-extrabold text-black text-3xl lg:text-4xl leading-tight mb-4">
+            <h1 className="font-display font-extrabold text-black text-3xl lg:text-4xl leading-tight lg:leading-10 mb-4">
               {slides[currentSlide].title}
             </h1>
 

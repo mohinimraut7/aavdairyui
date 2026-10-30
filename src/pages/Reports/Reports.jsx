@@ -13,7 +13,7 @@ export default function Reports() {
         <p className="text-sm text-gray-400">Farm-wide reports and exports</p>
       </div>
 
-      <div className="bg-white rounded-[20px] shadow-sm p-12 text-center text-gray-400">
+      <div className="bg-white rounded-[20px] shadow-xs p-12 text-center text-gray-400">
         <FileBarChart className="mx-auto mb-3" size={32} />
         <p className="font-medium text-gray-600 mb-1">Reports module coming soon</p>
         <p className="text-sm max-w-md mx-auto">

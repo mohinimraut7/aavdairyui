@@ -31,7 +31,7 @@ export default function HeroBanner({ todaysMilk = "0 L", activeAnimals = "0", fe
           }`}
         />
       ))}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/25 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/25 to-transparent" />
       <div className="relative h-full flex flex-col p-8">
         <div>
           <h1 className="text-4xl font-bold text-white mb-3">Welcome!!</h1>

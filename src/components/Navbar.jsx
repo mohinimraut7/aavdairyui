@@ -24,7 +24,7 @@ export default function Navbar() {
   const title = titleMap[pathname] || "AAV Dairy Farm";
 
   return (
-    <header className="sticky top-0 z-20 bg-white/90 backdrop-blur-xl border-b border-green-100 shadow-sm">
+    <header className="sticky top-0 z-20 bg-white/90 backdrop-blur-xl border-b border-green-100 shadow-xs">
 
       <div className="h-20 px-8 flex items-center justify-between">
 

@@ -24,7 +24,7 @@ export default function MedicalTable() {
   }, []);
 
   return (
-    <div className="bg-white rounded-[20px] p-6 shadow-sm">
+    <div className="bg-white rounded-[20px] p-6 shadow-xs">
       <h3 className="font-semibold text-gray-800 mb-4">🩺 Recent Medical Records</h3>
       {loading ? (
         <div className="text-center py-6 text-gray-400 text-sm">Loading...</div>
